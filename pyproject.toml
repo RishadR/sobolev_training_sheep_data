@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_sobolev_training"
+version = "0.1.0"
+description = "A project for training sheep data using Sobolev methods"
+authors = [{name = "Rishad Raiyan Joarder", email = "sa.dip987@gmail.com"}]
+requires-python = ">=3.5"
+license = {text = "MIT"}
+dependencies = ["emd"]  # TODO: Add dependencies later
+
