@@ -64,7 +64,7 @@ def sobolev_train(
     model.to(device)
     
     def get_prediction_unsqueezed(x):
-        return model(x).squeeze()
+        return model(x)
     
     print(f"\n{'='*80}")
     print(f"Starting Sobolev Training for {num_epochs} epochs")
